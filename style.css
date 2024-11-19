@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*modifica todo el archivo*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: rgba(122, 101, 255, 0.925);
+    color: #333;
+}/*modifica el cuerpo del archivo*/
+
+.mayor {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(34, 0, 255, 0.925);
+    border-radius: 8px;
+}/*div mayor*/
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}/*encabezado*/
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}/*titulo (mi nombre)*/
+
+.titulo-profesional {
+    color: #7f8c8d;
+    font-size: 1.2em;
+}/*titulo de mi carrera profesional*/
+
+section {
+    margin-bottom: 30px;
+}/*margin por igual a todos los section*/
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}/*modifica los h2*/
+
+.contacto ul {
+    list-style: none;
+}/*quita el estilo de lista*/
+
+.contacto li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}/*modifica cada item de la lista*/
+
+
+.trabajo {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.empresa {
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+.estudio {
+    margin-bottom: 20px;
+}
+
+.institucion {
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+.años {
+    color: #95a5a6;
+    font-style: italic;
+    margin-bottom: 10px;
+}/*modifica color y estilo del periodo en que "estudie"*/
+
+ul {
+    padding-left: 20px;
+}
+
+.habilidades2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}/*alinea una al lado de la otra*/
+
+.habilidad {
+    background-color: rgba(34, 0, 255, 0.925);;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}/*estilo y forma a cada div de lenguajes*/
+
+@media (max-width: 600px){
+    .mayor {
+        margin: 20px;
+        padding: 20px;
+    }
+}/*ajusta el contenido dependiendo el tamaño de pantalla*/
